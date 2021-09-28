@@ -1,0 +1,56 @@
+*,
+*::before,
+ *::after {
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p, li, ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+#root {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.component {
+  margin: 15px;
+}
+
+select {
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  color: cornflowerblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: white;
+  background-color: cornflowerblue;
+}

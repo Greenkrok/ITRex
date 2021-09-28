@@ -1,0 +1,29 @@
+.table {
+  width: calc(100% - 30px);
+  text-align: center;
+}
+
+th::after{
+  content: "";
+  display: inline-block;
+  border: 5px solid transparent; border-bottom: 10px solid black;
+  margin-left: 5px;
+}
+
+th:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+tr {
+  cursor: pointer;
+}
+
+tbody > tr:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+}
